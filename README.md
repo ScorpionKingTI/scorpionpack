@@ -1,5 +1,5 @@
 # scorpionpack
-instala varias ferramentas apenos peço que vpcê tenha no minimo 150 mb de espaço
+instala varias ferramentas apenos peço que vpcê tenha no minimo 400 mb de espaço mas dependendo de como anda seu sistema pode se precisar de mais
 e importante compartilha com os amigos e tals para que venham cada vez mais atualizações
 recomenda-se de que você use os comandos para atualizar o terminal
 $ apt update
