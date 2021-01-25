@@ -1,14 +1,16 @@
 #!/bin/bash
 
+clear
 echo CONHECIMENTO NÃO É CRIME 
 sleep 2
+clear
 apt install figlet 
 apt install toilet
 apt install sl
 sl 
 toilet -f mono12 -F metal scorpion 
 sleep 3
-echo $red"XXXX'            .:ok0XNMMMMMMMWNKko:.             'KXXX"
+echo -e "\033[05;31mXXXX'            .:ok0XNMMMMMMMWNKko:.             'KXXX"
 echo $red"XXXX'         .c0MMMMMMMMMMMMMMMMMMMMMKo.          'KXXX"
 echo $red"XXXX'        :XMMMMMMMMMMMMMMMMMMMMMMMMMWO;        'KXXX"
 echo $red"XXXX'     .cKMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,      'KXXX"
