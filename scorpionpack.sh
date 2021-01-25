@@ -10,7 +10,13 @@ apt install sl
 sl 
 toilet -f mono12 -F metal scorpion 
 sleep 3
-echo -e "\033[05;31mXXXX'            .:ok0XNMMMMMMMWNKko:.             'KXXX"
+echo -e "\033[00;31mXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+echo $red"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+echo $red"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+echo $red"XXXX:..............................................:KXXX"
+echo $red"XXXX'                                              'KXXX"
+echo $red"XXXX'                                              'KXXX"
+echo $red"XXXX'            .:ok0XNMMMMMMMWNKko:.             'KXXX"
 echo $red"XXXX'         .c0MMMMMMMMMMMMMMMMMMMMMKo.          'KXXX"
 echo $red"XXXX'        :XMMMMMMMMMMMMMMMMMMMMMMMMMWO;        'KXXX"
 echo $red"XXXX'     .cKMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,      'KXXX"
@@ -43,7 +49,7 @@ echo $red"XXXX'                𝕤𝕔𝕠𝕣𝕡𝕚𝕠𝕟 𝕜𝕚𝕟𝕘
 echo $red"XXXX:..............................................:KXXX"
 echo $red"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 echo $red"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-echo $red"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+echo -e "\033[00;31mXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\033[0;0m"
 sleep 2
 figlet ferramentas basicas
 apt install git
@@ -62,8 +68,8 @@ apt install perl
 apt install cowsay
 apt install screenfetch
 apt install cmatrix
-figlet ferramentas de médio uso
-echo CONHECIMENTO  NÃO É CRIME
+echo -e "\033[00;32mconhecimento não e crime"
+figlet ferramentas de medio uso
 sleep 2 
 figlet red_hawk
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
@@ -97,6 +103,5 @@ figlet hammer
 git clone https://github.com/liorvh/hammer-1
 figlet nmap
 apt install nmap
-echo CONHECIMENTO NÃO É CRIME
 sleep 3
 cmatrix
